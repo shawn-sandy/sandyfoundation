@@ -1,5 +1,6 @@
 @use '@shawnsandy/first-paint/src/styles/critical.scss';
 // @use 'theme/shawnsandy/shawn-sandy.scss';
+@use 'theme/foundation/index.scss';
 
 body > section,
 body > main,
@@ -14,11 +15,6 @@ nav {
     width: 80%;
     // max-width: calc(1500rem / 16) !important;
   }
-}
-
-body > header {
-  padding: 0 0 3rem !important;
-  background-size: cover;
 }
 
 p + * {
