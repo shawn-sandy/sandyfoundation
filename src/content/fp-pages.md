@@ -2,9 +2,9 @@
 title: FP pages
 subtitle: 'Lightweight, Fast, Accessible, Inclusive; A minimalist UI Toolkit for building responsive, performance driven, accessibility first websites'
 date: 2021-06-08
-coverImage: ['pages-cov.webp']
+coverImage: ['placeholder.png']
 ---
 
-![{{ title }}]({{ hlp.sharp.img(['fp-pages.jpg']) }})
+![{{ title }}]({{ hlp.sharp.img(['placeholder.png']) }})
 
-FP-Pages is a minimalist UI/Frontend Toolkit for building performance-driven, accessibility-first websites. Powered by modern Serverless, Javascript, API's and Markdown stack, with built-in Netlify, Cloudflare pages for easy quick and easy server(less) integration deploys with Azure coming soon. FirstPaint a lightweight classless 10kb/3kb(gzip) CSS/SCSS library for style and layout and Eleventy a simple and easy to use next-gen static site generator. Stay tuned.
+Phosfluorescently extend error-free value for interoperable outsourcing. Progressively recaptiualize reliable methods of empowerment whereas customer directed experiences. Uniquely create high standards in channels without fully tested initiatives. Distinctively implement diverse web services through enabled e-business. Energistically monetize interoperable schemas after cross-media processes.
