@@ -1,5 +1,5 @@
 @use '@shawnsandy/first-paint/src/styles/critical.scss';
-@use 'theme/shawnsandy/shawn-sandy.scss';
+// @use 'theme/shawnsandy/shawn-sandy.scss';
 
 body > section,
 body > main,
@@ -16,8 +16,17 @@ nav {
   }
 }
 
+body > header {
+  padding: 0 0 3rem !important;
+  background-size: cover;
+}
+
 p + * {
   margin-top: 1.5rem !important;
+}
+
+picture + * {
+  margin-top: 2rem;
 }
 
 pre,
@@ -40,6 +49,10 @@ section [role='list'] {
   }
 }
 
+main article + aside,
+main section + aside {
+  padding-left: 3rem !important;
+}
 .fp-grid [role='list'] [role='listitem'],
 section [role='list'] [role='listitem'] {
   display: flex;
@@ -55,4 +68,13 @@ section [role='list'] [role='listitem'] {
 [role='listitem'] > section {
   flex: 2rem;
   margin-bottom: 2rem;
+}
+
+footer[role='contentinfo'] {
+  font-size: 0.9rem;
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

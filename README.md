@@ -1,4 +1,6 @@
-# FP-Pages
+# SUBSTACK (FP-Pages)
+
+Them for FP_PAGES
 
 > FP-Pages is a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack, with built in [Netlify](https://www.netlify.com/), [Cloudflare pages](https://pages.cloudflare.com/) and [Azure coming soon](https://azure.microsoft.com/) integration for easy server(less) deploys. A lightweight classless `10kb/3kb(gzip)` CSS/SCSS library for style and layout [FirstPaint](https://npmjs.org/package/@shawnsandy/first-paint) and  [Eleventy](https://11ty.dev) a simple and easy to use next-gen static site generator.
 
@@ -8,7 +10,7 @@
 
 **Deploy to Netlify**
 
-* [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/shawnsandy-dev) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
+* [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/substack) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
 * Set the name of your repo Netlify will clone to the git repository you linked to earlier
 * Set your [ENV variables (see more)](#env-config) this can be updated later
 * Click save and deploy button and watch Netlify do its magic
