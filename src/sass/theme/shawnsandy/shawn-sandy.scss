@@ -37,9 +37,6 @@ header,
 }
 
 body > header {
-  padding: 0 0 3rem !important;
-  background-size: cover;
-
   blockquote {
     color: tokens.$primary-blue;
     // font-style: italic;
@@ -158,9 +155,6 @@ blockquote {
 footer[role='contentinfo'] {
   font-size: 0.9rem;
 
-  nav {
-    flex-direction: column;
-  }
   background-color: tokens.$bg-color;
   color: #fff;
   a {

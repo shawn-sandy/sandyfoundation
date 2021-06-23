@@ -16,6 +16,11 @@ nav {
   }
 }
 
+body > header {
+  padding: 0 0 3rem !important;
+  background-size: cover;
+}
+
 p + * {
   margin-top: 1.5rem !important;
 }
@@ -44,6 +49,10 @@ section [role='list'] {
   }
 }
 
+main article + aside,
+main section + aside {
+  padding-left: 3rem !important;
+}
 .fp-grid [role='list'] [role='listitem'],
 section [role='list'] [role='listitem'] {
   display: flex;
@@ -59,4 +68,13 @@ section [role='list'] [role='listitem'] {
 [role='listitem'] > section {
   flex: 2rem;
   margin-bottom: 2rem;
+}
+
+footer[role='contentinfo'] {
+  font-size: 0.9rem;
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
