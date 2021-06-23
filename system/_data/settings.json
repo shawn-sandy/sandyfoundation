@@ -1,18 +1,18 @@
 {
-  "title": "ShawnSandy.dev",
-  "subtitle": "Design, Code, Performance, Usability, Accessibility",
-  "url": "https://shawnsandy.dev",
-  "description": "Design First; Frontend Engineer, advocate, Dad, Husband, and content creator that's crazy about design, performance, usability, accessibility empowerment, diversity and inclusion.",
+  "title": "Substack",
+  "subtitle": "Enthusiastically restore compelling metrics through emerging alignments. Compellingly.",
+  "url": "https://server.dev",
+  "description": "Holisticly monetize revolutionary web-readiness via progressive catalysts for.",
   "logo_url": "/images/nav-logo.svg",
   "feed": {
-    "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
+    "subtitle": "",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://shawnsandy.dev/"
+    "id": "https://server.dev/"
   },
   "author": {
-    "name": "Shawn Sandy",
-    "email": "shawnsandy@shawnsandy.dev",
+    "name": "john hannock",
+    "email": "name@mail.dev",
     "twitter": "@shawnsandy"
   },
   "styles": [],
