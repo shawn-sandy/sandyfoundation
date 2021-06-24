@@ -1,22 +1,46 @@
 //custom
 @use "tokens";
 
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 body > header {
-  padding: 0 0 3rem !important;
+  padding: 1.5rem 0 4rem !important;
   background-size: cover;
   background-color: #000;
   color: #fff;
+  blockquote {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  [role='presentation'] {
+    text-transform: uppercase;
+  }
 }
 
 nav {
-  padding: 2rem 0 !important;
+  padding: 2.5rem 0 !important;
   svg {
     fill: tokens.$primary-red;
   }
   section a {
     &:any-link {
-      color: tokens.$primary-red;
+      // font-size: 1rem;
+      text-transform: uppercase;
+      color: tokens.$link-red;
+      &:hover {
+        color: tokens.$primary-red;
+      }
     }
     text-decoration: none;
+  }
+}
+
+.primary-red {
+  color: tokens.$primary-red !important;
+  &-bg {
+    background-color: tokens.$primary-red !important;
   }
 }
