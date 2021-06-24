@@ -2,7 +2,6 @@
 @use "tokens";
 
 body {
-  font-family: 'Montserrat', sans-serif !important;
   // border-left: thick solid tokens.$primary-red;
 }
 
@@ -11,6 +10,7 @@ body > header {
   background-size: cover;
   background-color: #000;
   border-bottom: thick solid tokens.$primary-red;
+  font-family: 'Montserrat', sans-serif !important;
   color: #fff;
   blockquote {
     border-left: none;
