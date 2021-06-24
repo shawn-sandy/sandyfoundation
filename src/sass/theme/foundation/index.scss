@@ -3,14 +3,14 @@
 
 body {
   font-family: 'Montserrat', sans-serif !important;
-  border-left: thick solid tokens.$primary-red;
+  // border-left: thick solid tokens.$primary-red;
 }
 
 body > header {
   padding: 1.5rem 0 4rem !important;
   background-size: cover;
   background-color: #000;
-  // border-bottom: thick solid tokens.$primary-red;
+  border-bottom: thick solid tokens.$primary-red;
   color: #fff;
   blockquote {
     border-left: none;
@@ -45,4 +45,9 @@ nav {
   &-bg {
     background-color: tokens.$primary-red !important;
   }
+}
+
+footer[role='contentinfo'] {
+  background-color: #000;
+  color: #fff;
 }
