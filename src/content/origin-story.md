@@ -11,7 +11,7 @@ coverImage: ['GrandpaWeb.jpg']
 
 In the early morning hours of  October 30th  2002, Esme Lionel Sandy  exhaled his final breath, leaving behind the great love of his life.  In September 20th 2006, his love, Pomelia too passed, closing the chapter of a love story that endured the test of time for a little over seventy-five years.
 
-Esme Lionel Sandy was the eldest of the three sons of Joseph Sandy and Rhoda Charles. They were of Tobagonian stock, hardworking people who migrated to their sister isle of Trinidad to make a better life for themselves. **The Sandys were the reputed descendants of the legendary African warrior who led the enslaved persons in the first recorded uprising in Tobago in 1790.**
+> Esme Lionel Sandy was the eldest of the three sons of Joseph Sandy and Rhoda Charles. They were of Tobagonian stock, hardworking people who migrated to their sister isle of Trinidad to make a better life for themselves. **The Sandys were the reputed descendants of the legendary African warrior who led the enslaved persons in the first recorded uprising in Tobago in 1790.**
 
 Five generations removed from slavery, Esme was born.  He had a natural sense of style, intellect, good looks, strength, good sense, agility and good taste that made him aspire to be a tailor. But his aspiration was thwarted by the poverty common to many in the laboring class at that time.  His father, Joseph wept at his limited resources which prevented him from helping his son achieve his ambition.  He could only reflect on how his own ambition to become a teacher was balked for the lack of shoes. Esme at least had shoes. He also loved a fine young woman who, by the standards of the day, was out of his league. That woman was Pomelia Veronica Gederon.
 
