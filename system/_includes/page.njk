@@ -4,12 +4,13 @@
   <section
     class="bg-section" style="">
     {# <h3 role="presentation">
-                  <i class="ti ti-grain"></i>
-                  {{ title }}
-                </h3> #}
-    <h2 class="title-font primary-red-">
+                                  <i class="ti ti-grain"></i>
+                                  {{ title }}
+                                </h3> #}
+    <h3 class="title-font primary-red-">
       {{ subtitle or settings.description }}
-    </h2>
+    </h3>
+    {# <hr class="hr-gray"> #}
   {% endblock %}
   {% block content %}
     {{ super() }}

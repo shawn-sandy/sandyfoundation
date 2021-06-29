@@ -4,21 +4,16 @@
     <h2 role="decoration" class="text-center">
       {{ settings.subtitle }}
     </h2>
-    <hr></section>
-    <section>
-      {# <blockquote class="title-font primary-red">
-                                                    <h2 role="presentation">
-                                                      <i class="ti ti-grain"></i>
-                                                      {{ settings.subtitle }}
-                                                    </h2>
-                                                  </blockquote> #}
-      {{ feature.featured('projects', 3) }}
-    </section>
-    {# {% include "partials/hero.njk" %} #}
-  {% endblock %}
-  {% block content %}
-    <section class="page-links">
-      {{ feature.featured('projects', 3) }}
-    </section>
-    {{ super() }}
-  {% endblock %}
+    {# <hr> #}
+  </section>
+  <section>
+    {{ feature.featured('featured', 3) }}
+  </section>
+  {# {% include "partials/hero.njk" %} #}
+{% endblock %}
+{% block content %}
+  <section class="page-links">
+    {{ feature.featured('projects', 3) }}
+  </section>
+  {{ super() }}
+{% endblock %}
