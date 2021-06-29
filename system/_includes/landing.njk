@@ -7,16 +7,18 @@
     <hr></section>
     <section>
       {# <blockquote class="title-font primary-red">
-                                        <h2 role="presentation">
-                                          <i class="ti ti-grain"></i>
-                                          {{ settings.subtitle }}
-                                        </h2>
-                                      </blockquote> #}
+                                                    <h2 role="presentation">
+                                                      <i class="ti ti-grain"></i>
+                                                      {{ settings.subtitle }}
+                                                    </h2>
+                                                  </blockquote> #}
       {{ feature.featured('projects', 3) }}
     </section>
     {# {% include "partials/hero.njk" %} #}
   {% endblock %}
   {% block content %}
-    {{ feature.featured('projects', 3) }}
+    <section class="page-links">
+      {{ feature.featured('projects', 3) }}
+    </section>
     {{ super() }}
   {% endblock %}
