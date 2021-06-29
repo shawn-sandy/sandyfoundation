@@ -97,6 +97,7 @@ a[role='button']:any-link > em,
   background-color: tokens.$primary-red;
   color: #fff;
   border: transparent;
+  font-size: 1rem;
   &:hover {
     background-color: tokens.$primary-red;
     color: #000;
