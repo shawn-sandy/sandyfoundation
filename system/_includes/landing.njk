@@ -4,8 +4,7 @@
     <h2 role="decoration" class="text-center">
       {{ settings.subtitle }}
     </h2>
-    {# <hr> #}
-  </section>
+    <hr/></section>
   <section>
     {{ feature.featured('featured', 3) }}
   </section>
@@ -13,7 +12,7 @@
 {% endblock %}
 {% block content %}
   <section class="page-links">
-    {{ feature.featured('projects', 3) }}
+    {{ feature.featured('posts', 3) }}
   </section>
   {{ super() }}
 {% endblock %}

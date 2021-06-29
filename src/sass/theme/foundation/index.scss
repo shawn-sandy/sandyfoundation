@@ -11,13 +11,17 @@ body > header {
   padding: 0rem 0 4rem !important;
   background-size: cover;
   background-color: #000;
+  background-image: url(/images/ssf-logo-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   // border-bottom: thick solid tokens.$primary-red;
   //font-family: 'Montserrat', sans-serif !important;
   color: #fff;
   hr,
   .hr-gray {
-    border-top-color: #403e3e !important;
-    border-top-width: calc(3rem / 16);
+    border-top-color: $dark-red !important;
+    border-top-width: calc(5rem / 16);
   }
   blockquote {
     border-left: solid calc(3rem / 16) #fff;
@@ -32,7 +36,7 @@ body > header {
   h2 {
     color: whitesmoke;
     @extend .fjalla;
-    font-size: calc(52rem / 16);
+    font-size: calc(36rem / 16);
     padding: 2rem 0;
   }
 
@@ -57,7 +61,7 @@ body > header {
 
 nav {
   padding: 0.5rem 0 !important;
-  background-color: #000;
+  // background-color: #000;
   svg {
     fill: tokens.$primary-red;
   }
@@ -127,4 +131,5 @@ h6 {
   // @extend .fjalla;
   // word-spacing: 0.4rem;
   // letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
