@@ -6,34 +6,49 @@ body {
 }
 
 body > header {
-  padding: 1.5rem 0 4rem !important;
+  padding: 0rem 0 4rem !important;
   background-size: cover;
   background-color: #000;
-  border-bottom: thick solid tokens.$primary-red;
-  font-family: 'Montserrat', sans-serif !important;
+  // border-bottom: thick solid tokens.$primary-red;
+  //font-family: 'Montserrat', sans-serif !important;
   color: #fff;
+  hr {
+    border-top-color: #403e3e !important;
+    border-top-width: calc(3rem / 16);
+  }
   blockquote {
-    border-left: none;
-    padding-left: 0;
+    border-left: solid calc(3rem / 16) #fff;
+    padding-left: 1rem;
+    color: #fff;
   }
 
   [role='presentation'] {
     text-transform: uppercase;
   }
+
+  h2 {
+    color: whitesmoke;
+    @extend .fjalla;
+    font-size: calc(52rem / 16);
+    padding: 2rem 0;
+  }
 }
 
 nav {
-  padding: 2.5rem 0 !important;
+  padding: 0.5rem 0 !important;
+  background-color: #000;
   svg {
     fill: tokens.$primary-red;
   }
   section a {
     &:any-link {
       // font-size: 1rem;
-      text-transform: uppercase;
-      color: tokens.$link-red;
+      // text-transform: uppercase;
+      // font-weight: 500;
+      // color: tokens.$link-red;
+      color: #fff;
       &:hover {
-        color: tokens.$primary-red;
+        color: tokens.$link-red;
       }
     }
     text-decoration: none;
@@ -50,4 +65,37 @@ nav {
 footer[role='contentinfo'] {
   background-color: #000;
   color: #fff;
+}
+
+a[role='button']:any-link > em,
+.fp-button-link[role='button']:any-link > em {
+  background-color: tokens.$primary-red;
+  color: #fff;
+  border: transparent;
+  &:hover {
+    background-color: tokens.$primary-red;
+    color: #000;
+  }
+}
+
+main a:any-link {
+  // background-color: tokens.$primary-red;
+  color: #000;
+}
+
+.text-center {
+  text-align: center;
+}
+.fjalla {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .fjalla;
 }
