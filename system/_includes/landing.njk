@@ -1,17 +1,21 @@
 {% extends "base.njk" %}
 {% block cover %}
   <section>
-    <h3 role="presentation">
-      <i class="ti ti-grain"></i>
+    <h2
+      role="decoration" class="text-center- quote">
+      {# <img src="/images/quote-fr.svg" alt=""> #}
       {{ settings.subtitle }}
-    </h3>
-    <blockquote class="title-font">
-      {{ settings.description }}
-    </blockquote>
+    </h2>
+    {# <hr/> #}
+  </section>
+  <section>
+    {{ feature.featured('featured', 3) }}
   </section>
   {# {% include "partials/hero.njk" %} #}
 {% endblock %}
 {% block content %}
-  {{ feature.featured('projects', 3) }}
+  <section class="page-links">
+    {{ feature.featured('posts', 3) }}
+  </section>
   {{ super() }}
 {% endblock %}

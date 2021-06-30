@@ -8,6 +8,7 @@ const image = require("@11ty/eleventy-img");
 const CleanCSS = require("clean-css");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const take = "lodash.take";
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
@@ -89,6 +90,8 @@ module.exports = function (eleventyConfig) {
 
   // navigation
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+   eleventyConfig.addPlugin(embedYouTube);
 
   return {
     dir: {
