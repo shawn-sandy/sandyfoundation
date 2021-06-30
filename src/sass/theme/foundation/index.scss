@@ -15,8 +15,8 @@ body > header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  // border-bottom: thick solid tokens.$primary-red;
-  //font-family: 'Montserrat', sans-serif !important;
+  border-top: thick solid tokens.$primary-red;
+  font-family: 'Roboto', sans-serif !important;
   color: #fff;
   hr,
   .hr-gray {
@@ -35,11 +35,14 @@ body > header {
 
   h2 {
     color: whitesmoke;
-    font-size: calc(38rem / 16);
+    font-size: calc(42rem / 16);
+    font-family: 'Roboto' !important;
+    font-weight: 400;
   }
 
   h3 {
-    padding-left: 3rem;
+    // padding-left: 3rem;
+    font-size: calc(31rem / 16);
   }
 
   a:any-link {
@@ -64,9 +67,9 @@ blockquote {
 }
 
 .quote {
-  @extend .fjalla;
+  // @extend .fjalla;
   padding: 1rem 1.5rem;
-  max-width: 85%;
+  max-width: 90%;
   margin: 2rem auto;
   border-left: $dark-red solid calc(3rem / 16);
 }
@@ -122,14 +125,21 @@ a[role='button']:any-link > em,
   }
 }
 
-main a:any-link,
-.page-links a:any-link {
-  // background-color: tokens.$primary-red;
-  color: #000;
-  text-decoration: none;
-  &:hover {
-    color: $dark-red;
-    text-decoration: underline;
+main {
+  a:any-link,
+  .page-links a:any-link {
+    // background-color: tokens.$primary-red;
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      color: $dark-red;
+      text-decoration: underline;
+    }
+  }
+
+  h2,
+  h3 {
+    font-size: calc(48rem / 16);
   }
 }
 
@@ -141,6 +151,10 @@ main a:any-link,
   text-transform: capitalize;
 }
 
+.roboto {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+}
 h1,
 h2,
 h3,
