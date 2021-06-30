@@ -35,9 +35,7 @@ body > header {
 
   h2 {
     color: whitesmoke;
-    @extend .fjalla;
-    font-size: calc(36rem / 16);
-    padding: 2rem 0;
+    font-size: calc(38rem / 16);
   }
 
   h3 {
@@ -63,6 +61,14 @@ blockquote {
   margin: 2rem;
   color: $dark-red;
   border-color: $dark-red !important;
+}
+
+.quote {
+  @extend .fjalla;
+  padding: 1rem 1.5rem;
+  max-width: 90%;
+  margin: 2rem auto;
+  border-left: $dark-red solid calc(3rem / 16);
 }
 
 nav {
@@ -132,7 +138,7 @@ main a:any-link,
 }
 .fjalla {
   font-family: 'Fjalla One', sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h1,
@@ -144,5 +150,5 @@ h6 {
   @extend .fjalla;
   // word-spacing: 0.4rem;
   // letter-spacing: 0.1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }

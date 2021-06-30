@@ -1,10 +1,13 @@
 {% extends "base.njk" %}
 {% block cover %}
   <section>
-    <h2 role="decoration" class="text-center">
+    <h2
+      role="decoration" class="text-center- quote">
+      {# <img src="/images/quote-fr.svg" alt=""> #}
       {{ settings.subtitle }}
     </h2>
-    <hr/></section>
+    {# <hr/> #}
+  </section>
   <section>
     {{ feature.featured('featured', 3) }}
   </section>
