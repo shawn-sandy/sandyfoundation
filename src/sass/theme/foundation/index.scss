@@ -57,6 +57,10 @@ body > header {
 
   [role='listitem'] {
     font-size: calc(18rem / 16);
+    h4 {
+      text-transform: uppercase;
+      font-size: calc(28rem / 16);
+    }
   }
 }
 
