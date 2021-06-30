@@ -11,6 +11,11 @@
           <h2 role="presentation ">{{ title }}</h2>
           {% if showDate %}
             <time datetime="{{ page.date }}">
+              {% if author %}
+                Author:
+                <strong>{{ author }}</strong>
+                :
+              {% endif %}
               <i class="ti ti-calendar-event"></i>
               {{ hlp.11ty.timeAgo(page.date) }}
             </time>
