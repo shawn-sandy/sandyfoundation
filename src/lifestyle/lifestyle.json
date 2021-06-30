@@ -1,5 +1,5 @@
 {
-  "layout": "posts.njk",
+  "layout": "page.njk",
   "title": "Lifestyle",
   "tags": "lifestyle",
   "showDate": true,

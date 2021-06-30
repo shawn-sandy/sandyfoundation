@@ -1,7 +1,7 @@
 ---
 title: 'Origin Story, The Story of US'
 subtitle: 'The Sandys were the reputed descendants of the legendary African warrior who led the enslaved persons in the first recorded uprising in Tobago in 1790.'
-date: 2021-06-08
+date: 2021-06-30
 coverImage: ['GrandpaWeb.jpg']
 ---
 

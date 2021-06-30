@@ -2,7 +2,7 @@
 title: DRUM TALK
 subtitle: 'I’m the drum. You’re the drum. We’re he drum. Where I come from, we say that rhythm is the
 soul of life'
-date: 2021-06-08
+date: 2021-06-30
 coverImage: ['drums.jpeg']
 author: Clifford Johnson
 ---

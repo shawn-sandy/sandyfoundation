@@ -1,7 +1,7 @@
 ---
 title: 'Certain in meh DNA!'
 subtitle: "Since I born is to now, I walking around with a certain how to put it. It's like someone took certain and sprayed it in my DNA"
-date: 2021-06-08
+date: 2021-06-30
 coverImage: ['derron.jpg']
 ---
 
