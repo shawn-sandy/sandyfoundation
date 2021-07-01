@@ -53,15 +53,10 @@ body > header {
     // text-transform: uppercase;
   }
 
-  h2 {
-    color: whitesmoke;
-    font-size: calc(31rem / 16);
-    font-family: 'Roboto' !important;
-    font-weight: 400;
-  }
-
+  h2,
   h3 {
-    font-size: calc(31rem / 16);
+    color: whitesmoke;
+    @extend .subtitles;
   }
 
   a:any-link {
@@ -209,4 +204,10 @@ h5,
 h6 {
   @extend .fjalla;
   text-transform: capitalize;
+}
+
+.subtitles {
+  font-size: calc(31rem / 16);
+  // font-family: 'Roboto' !important;
+  font-weight: 400;
 }
