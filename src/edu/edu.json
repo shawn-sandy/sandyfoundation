@@ -1,0 +1,7 @@
+{
+  "layout": "posts.njk",
+  "title": "Eduction",
+  "tags": "education",
+  "showDate": true,
+  "scripts": []
+}
