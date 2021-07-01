@@ -55,7 +55,7 @@ body > header {
 
   h2 {
     color: whitesmoke;
-    font-size: calc(42rem / 16);
+    font-size: calc(31rem / 16);
     font-family: 'Roboto' !important;
     font-weight: 400;
   }
@@ -98,6 +98,7 @@ blockquote {
   max-width: 90%;
   margin: 1rem auto;
   border-left: $dark-red solid calc(3rem / 16);
+  font-style: italic;
 }
 
 nav {
