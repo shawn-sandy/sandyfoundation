@@ -178,6 +178,16 @@ main {
   }
 }
 
+#lifestyle {
+  a:any-link {
+    color: #000 !important;
+    text-decoration: none;
+    &:hover {
+      color: $dark-red !important;
+    }
+  }
+}
+
 .text-center {
   text-align: center;
 }
