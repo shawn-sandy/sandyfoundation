@@ -54,9 +54,6 @@ body > header {
   }
 
   h2 {
-    @media (max-width: 720px) {
-      font-size: calc(28rem / 16) !important;
-    }
     color: whitesmoke;
     font-size: calc(42rem / 16);
     font-family: 'Roboto' !important;
@@ -64,11 +61,7 @@ body > header {
   }
 
   h3 {
-    // padding-left: 3rem;
     font-size: calc(31rem / 16);
-    @media (max-width: 720px) {
-      font-size: calc(21rem / 16);
-    }
   }
 
   a:any-link {
@@ -86,6 +79,13 @@ body > header {
     h4 {
       text-transform: uppercase;
       font-size: calc(28rem / 16);
+    }
+  }
+
+  @media (max-width: 720px) {
+    h2,
+    h3 {
+      font-size: calc(28rem / 16) !important;
     }
   }
 }
