@@ -4,7 +4,7 @@ subtitle: "Meet Ambokile Adio, the dedicated father, exemplary educator and awar
 date: "2021-07-02"
 ---
 
-![img](/images/placeholder.jpg)
+![img]({{ hlp.sharp.img(['placeholder.png'])}})
 
 > I first met the Adios while teaching at PFESS. I got to know their daughter Fana through a few co-curricular clubs in which I managed. With a genteel warmth and infectious giggle, Fana smile lit up any room, and she graciously conducted herself with a quiet self-awareness. She did not fall far from the tree, and when I met her mother, I was amazed at how similar these two were. Mrs. Adio was a great parent support; highly involved in school activities, and Mr. Adio would be the stalwart backgrounder and financier of some of our school’s outreach projects.
 
