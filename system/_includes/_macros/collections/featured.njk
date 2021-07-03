@@ -22,7 +22,7 @@ reverse -%}
             </h4>
             <p>
               {{ item.data.subtitle or hlp.11ty.stripHtml(item.templateContent) |
-    truncate(300) | safe }}
+    truncate(words) | safe }}
             </p>
           </section>
           {% if item.url %}

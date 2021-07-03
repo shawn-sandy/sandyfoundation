@@ -3,5 +3,8 @@
   "title": "Lifestyle",
   "tags": "lifestyle",
   "showDate": true,
-  "scripts": []
+  "scripts": [],
+  "coverImage": [
+    "placeholder.png"
+  ]
 }

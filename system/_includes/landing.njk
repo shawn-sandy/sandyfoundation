@@ -4,7 +4,7 @@
     <h2
       role="decoration" class="text-center- quote">
       {# <img src="/images/quote-fr.svg" alt=""> #}
-      {{ settings.subtitle }}
+      {{ settings.description }}
     </h2>
     {# <hr/> #}
   </section>
@@ -14,8 +14,8 @@
   {# {% include "partials/hero.njk" %} #}
 {% endblock %}
 {% block content %}
-  <section class="page-links">
-    {{ feature.featured('posts', 3) }}
+  <section id="lifestyle" class="page-links">
+    {{ feature.featured('lifestyle', 6) }}
   </section>
   {{ super() }}
 {% endblock %}
