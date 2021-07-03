@@ -41,10 +41,10 @@ body > header {
   hr,
   .hr-gray {
     border-top-color: $dark-red !important;
-    border-top-width: calc(5rem / 16);
+    border-top-width: calc(5 / 16 * 1rem);
   }
   blockquote {
-    border-left: solid calc(3rem / 16) #fff;
+    border-left: solid calc(3 / 16 * 1rem) #fff;
     padding-left: 1rem;
     color: #fff;
   }
@@ -53,15 +53,10 @@ body > header {
     // text-transform: uppercase;
   }
 
-  h2 {
-    color: whitesmoke;
-    font-size: calc(42rem / 16);
-    font-family: 'Roboto' !important;
-    font-weight: 400;
-  }
-
+  h2,
   h3 {
-    font-size: calc(31rem / 16);
+    color: whitesmoke;
+    @extend .subtitles;
   }
 
   a:any-link {
@@ -74,18 +69,10 @@ body > header {
     }
   }
 
-  [role='listitem'] {
-    font-size: calc(18rem / 16);
-    h4 {
-      text-transform: uppercase;
-      font-size: calc(28rem / 16);
-    }
-  }
-
   @media (max-width: 720px) {
     h2,
     h3 {
-      font-size: calc(24rem / 16) !important;
+      font-size: calc(24 / 16 * 1rem) !important;
     }
   }
 }
@@ -102,10 +89,11 @@ blockquote {
 
 .quote {
   // @extend .fjalla;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   max-width: 90%;
   margin: 1rem auto;
-  border-left: $dark-red solid calc(3rem / 16);
+  border-left: $dark-red solid calc(3 / 16 * 1rem);
+  font-style: italic;
 }
 
 nav {
@@ -173,7 +161,26 @@ main {
 
   h2,
   h3 {
-    font-size: calc(48rem / 16);
+    font-size: calc(48 / 16 * 1rem);
+  }
+}
+
+[role='listitem'] {
+  font-size: calc(18 / 16 * 1rem);
+  h4,
+  h3 {
+    text-transform: uppercase;
+    font-size: calc(28 / 16 * 1rem);
+  }
+}
+
+#lifestyle {
+  a:any-link {
+    color: #000 !important;
+    text-decoration: none;
+    &:hover {
+      color: $dark-red !important;
+    }
   }
 }
 
@@ -197,4 +204,10 @@ h5,
 h6 {
   @extend .fjalla;
   text-transform: capitalize;
+}
+
+.subtitles {
+  font-size: calc(31 / 16 * 1rem);
+  // font-family: 'Roboto' !important;
+  font-weight: 400;
 }

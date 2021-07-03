@@ -2,10 +2,9 @@
 <!-- hide cover page -->
 {% block cover %}
   <section class="bg-section" style="">
-    <h3 class="title-font roboto primary-red- quote">
+    <h3 class="title-font  quote">
       {{ subtitle or settings.description }}
     </h3>
-    {# <hr class="hr-gray"> #}
   {% endblock %}
   {% block content %}
     {{ super() }}
