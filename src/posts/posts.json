@@ -4,5 +4,8 @@
   "tags": "posts",
   "showDate": true,
   "subtitle": "Frontend blog on Design, Code, Performance, Usability, Accessibility, Inclusion",
-  "scripts": []
+  "scripts": [],
+  "coverImage": [
+    "placeholder.png"
+  ]
 }
