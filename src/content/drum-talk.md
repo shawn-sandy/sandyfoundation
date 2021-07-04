@@ -1,7 +1,6 @@
 ---
 title: DRUM TALK
-subtitle: 'I’m the drum. You’re the drum. We’re he drum. Where I come from, we say that rhythm is the
-soul of life'
+subtitle: 'Where I come from, we say that rhythm is the soul of life. The whole universe revolves in rhythm.'
 date: 2021-06-30
 coverImage: ['drums.jpeg']
 author: Clifford Johnson
@@ -9,7 +8,7 @@ author: Clifford Johnson
 
 ![{{ title }}]({{ hlp.sharp.img(['drums.jpeg']) }})
 
-> “ I’m the drum. You’re the drum. We’re he drum. Where I come from, we say that rhythm is the soul of life. The whole universe revolves in rhythm. When we get out of rhythm, that’s when get into trouble. We are rhythm or we are not rhythm. The rhythm of life, the rhythm of relationships. Because of its rhythmic nature, because it helps keep us in rhythm, the drum, next to the human voice, is our most important, most sacred instrument. *Babartunde Olatunji*”
+> “ I’m the drum. You’re the drum. We’re the drum. Where I come from, we say that rhythm is the soul of life. The whole universe revolves in rhythm. When we get out of rhythm, that’s when get into trouble. We are rhythm or we are not rhythm. The rhythm of life, the rhythm of relationships. Because of its rhythmic nature, because it helps keep us in rhythm, the drum, next to the human voice, is our most important, most sacred instrument. *Babartunde Olatunji*”
 
 ----------
 
