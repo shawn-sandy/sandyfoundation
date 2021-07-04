@@ -211,3 +211,10 @@ h6 {
   // font-family: 'Roboto' !important;
   font-weight: 400;
 }
+article p a:any-link {
+  color: $dark-red;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
